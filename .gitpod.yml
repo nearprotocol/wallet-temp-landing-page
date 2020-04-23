@@ -1,8 +1,7 @@
 tasks:
-  - init: yarn
+  - init: npm i
   - command: npm install -g gatsby-cli
+  - command: gatsby develop
 ports:
   - port: 8000
     onOpen: open-browser
-image:
-  file: .gitpod.Dockerfile
