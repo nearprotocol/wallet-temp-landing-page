@@ -1,0 +1,8 @@
+tasks:
+  - init: npm i
+  - command: npm install -g gatsby-cli
+ports:
+  - port: 1234
+    onOpen: open-browser
+image:
+  file: .gitpod.Dockerfile
