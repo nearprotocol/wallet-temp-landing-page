@@ -1,5 +1,5 @@
 tasks:
-  - init: npm i
+  - init: yarn
   - command: npm install -g gatsby-cli
 ports:
   - port: 8000
