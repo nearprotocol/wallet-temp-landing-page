@@ -1,6 +1,6 @@
-<h1 align="center">
-  NEAR Wallet Temporary Landing Page
-</h1>
+# NEAR Wallet Temporary Landing Page
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nearprotocol/wallet-temp-landing-page)
 
 ## Prerequisites
 
