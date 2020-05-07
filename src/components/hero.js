@@ -31,7 +31,7 @@ const Hero = ({ siteTitle }) => (
      We've moved the TestNet Wallet to <a href="https://wallet.testnet.near.org">wallet.testnet.near.org</a>
     </p><br></br>
     <p style={{ textAlign: "center", fontSize: 18, fontWeight: 500 }}>
-      You can learn more about our MainNet roadmap <a href="https://near.org/blog/near-mainnet-genesis/">here</a>:      
+      You can learn more about our MainNet roadmap <a href="https://near.org/blog/near-mainnet-genesis/">here:</a>      
     </p>
     <img style={{width: 700}} src={NearTimeline} />
   </div>
