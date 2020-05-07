@@ -1,7 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import NearLogo from "../images/near-logo.svg"
-
 import { COLORS } from "../styles/constants"
 
 const Footer = ({ siteTitle }) => (
@@ -22,7 +20,7 @@ const Footer = ({ siteTitle }) => (
       }}
     >
       <div style={{ width: 200, marginBottom: 10 }}>
-        <img style={{ width: 140, marginBottom: 0 }} src={NearLogo} />
+        <img style={{ width: 140, marginBottom: 0 }} src="https://yc3.s3.us-east-2.amazonaws.com/near-logo.svg" />
       </div>
       <div style={{width: 350, marginBottom: 10}}>
         <p style={{fontSize: 12, fontWeight: 300, color: "black", marginBottom: 0}}>NEAR is a scalable computing and storage platform that changes how the web works for better. 

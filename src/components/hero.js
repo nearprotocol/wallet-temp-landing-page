@@ -1,7 +1,5 @@
 import React from "react"
 import PropTypes from "prop-types"
-import NearTimeline from "../images/genesis-timeline-1.png"
-
 
 const Hero = ({ siteTitle }) => (
   <div
@@ -33,7 +31,7 @@ const Hero = ({ siteTitle }) => (
     <p style={{ textAlign: "center", fontSize: 18, fontWeight: 500 }}>
       You can learn more about our MainNet roadmap <a href="https://near.org/blog/near-mainnet-genesis/">here:</a>      
     </p>
-    <img style={{width: 700}} src={NearTimeline} />
+    <img style={{width: 700}} src="https://yc3.s3.us-east-2.amazonaws.com/genesis-timeline-1.png" />
   </div>
 )
 

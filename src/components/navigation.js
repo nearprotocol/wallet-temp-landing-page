@@ -1,8 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import NearWallet from "../images/near-wallet.png"
-
 const Navigation = ({ siteTitle }) => (
     <div
       style={{
@@ -10,7 +8,7 @@ const Navigation = ({ siteTitle }) => (
         width: "100%",
         background: "rgb(36, 39, 42)"
       }}>
-      <a><img style={{width: 180}} src={NearWallet} /></a>
+      <a><img style={{width: 180}} src="https://yc3.s3.us-east-2.amazonaws.com/near-wallet.png" /></a>
     </div>
 )
 
