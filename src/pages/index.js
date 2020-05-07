@@ -3,7 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
-import Content from "../components/content"
 import Navigation from "../components/navigation"
 
 const IndexPage = () => (
@@ -11,7 +10,6 @@ const IndexPage = () => (
     <SEO />
     <Navigation />
     <Hero />
-    <Content />
   </Layout>
 )
 

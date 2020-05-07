@@ -1,5 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
+import NearTimeline from "../images/genesis-timeline-1.png"
+
 
 const Hero = ({ siteTitle }) => (
   <div
@@ -26,11 +28,12 @@ const Hero = ({ siteTitle }) => (
     </p>
     {/* <p style={{ textAlign: "center"}}>Read our <a href="https://nearprotocol.com/blog/mainnet-roadmap/">The Road to MainNet and Beyond</a> post to learn more.</p> */}
     <p style={{ textAlign: "center" }}>
-     We've moved the TestNet Wallet to <a href="https://wallet.testnet.nearprotocol.com">wallet.testnet.nearprotocol.com</a>
+     We've moved the TestNet Wallet to <a href="https://wallet.testnet.near.org">wallet.testnet.near.org</a>
     </p><br></br>
     <p style={{ textAlign: "center", fontSize: 18, fontWeight: 500 }}>
-      To access an existing TestNet account, select from the following options:      
+      You can learn more about our MainNet roadmap <a href="https://near.org/blog/near-mainnet-genesis/">here</a>:      
     </p>
+    <img style={{width: 700}} src={NearTimeline} />
   </div>
 )
 
