@@ -22,16 +22,16 @@ const Content = ({ siteTitle }) => (
       <div style={{ flexDirection: "column"}}>
         <p style={{ fontWeight: 600 }}>1. Use Account Recovery</p>
         <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}> If you've setup account recovery (Email, Phone, Seed Phrase), click below:</p>
-        <a href="https://wallet.testnet.nearprotocol.com/recover-account"><Button>RECOVER ACCOUNT</Button></a>
+        <a href="https://wallet.testnet.near.org/recover-account"><Button>RECOVER ACCOUNT</Button></a>
       </div>
       <div style={{ flexDirection: "column"}}>
         <p style={{ fontWeight: 600 }}>2. Retrieve Keys from LocalStorage</p>
-        <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}>If you are comfortable working with LocalStorage (<a href="https://docs.nearprotocol.com/docs/roles/developer/examples/near-api-js/guides#prepare-your-playground" target="_blank">how we use it</a>):</p>
-        <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}>Copy your keys and move them to <a href="https://wallet.testnet.nearprotocol.com">wallet.testnet.nearprotocol.com</a></p>
+        <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}>If you are comfortable working with LocalStorage (<a href="https://docs.near.org/docs/roles/developer/examples/near-api-js/guides#prepare-your-playground" target="_blank">how we use it</a>):</p>
+        <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}>Copy your keys and move them to <a href="https://wallet.testnet.near.org">wallet.testnet.near.org</a></p>
       </div>
       <div style={{ flexDirection: "column"}}>
         <p style={{ fontWeight: 600 }}>3. Contact Us</p>
-        <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}>If the other options don't work for you, <a href="https://discordapp.com/invite/jsAu4pP" target="_blank"><strong>please contact us!</strong></a></p>
+        <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}>If the other options don't work for you, <a href="https://t.me/cryptonear" target="_blank"><strong>please contact us!</strong></a></p>
         <p style={{ lineHeight: "1.4285em", color: "rgb(74, 79, 84)"}}>We'll help you access your account</p>
       </div>
     </div>
