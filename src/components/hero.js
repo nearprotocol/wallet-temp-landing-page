@@ -21,9 +21,6 @@ const Hero = ({ siteTitle }) => (
       }}
     />
     <h1 style={{ textAlign: "center", fontWeight: 500 }}>Welcome to NEAR!</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
-    This will soon be the NEAR MainNet Wallet
-    </p>
     {/* <p style={{ textAlign: "center"}}>Read our <a href="https://nearprotocol.com/blog/mainnet-roadmap/">The Road to MainNet and Beyond</a> post to learn more.</p> */}
     <p style={{ textAlign: "center" }}>
      We've moved the TestNet Wallet to <a href="https://wallet.testnet.near.org">wallet.testnet.near.org</a>
